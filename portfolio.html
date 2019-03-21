@@ -3,91 +3,105 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
-<body background="assets/images/bg.png">
-    <header
-        class="navbar navbar-light bg-white mw-100 border border-secondary border-top-0 border-right-0 border-left-0"">
-        <div class=" container" style="width: 960px">
-        <a class="navbar-brand font-weight-bold bg-info text-white px-3 py-2" href="index.html">Meena</a>
-        <nav class="navbar navbar-light bg-white mw-100">
-            <a href="index.html" class="text-secondary">About</a>
-            <a href="portfolio.html"
-                class="text-secondary pl-3 ml-3 border border-secondary border-top-0 border-right-0 border-bottom-0">Portfolio</a>
-            <a href="contact.html"
-                class="text-secondary pl-3 ml-3 border border-secondary border-top-0 border-right-0 border-bottom-0">Contact</a>
-        </nav>
+<body background="assets/images/bgimg.jpg">
+    <nav class="navbar fixed-top navbar-expand-md bg-dark navbar-dark">
+        <a class="navbar-brand brand font-weight-bold" href="index.html">Meena</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
         </div>
-    </header>
-    <div class="container" style="width: 960px">
-        <section class="position-relative bg-white px-5 py-3" style="top: 15px">
-            <h1 class="text-info font-weight-bold">Portfolio</h1>
-            <hr>
-            <div class="container">
-                <div class="row mb-5">
-                    <div class="col-md-6">
-                        <div class="float-left">
-                            <img class="position-relative" src="assets/images/multi_canvas.jpg" alt="Image" width="301"
-                                height="300">
-                            <div class="position-absolute bg-info text-white px-4" style="bottom: 20px">
-                                <h3>Multi-Cavas-Pattern</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="float-left">
-                            <img class="position-relative" src="assets/images/panda.jpg" alt="Image" width="246"
-                                height="300">
-                            <div class="position-absolute bg-info text-white px-4" style="bottom: 20px">
-                                <h3>Some Bamboo?</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row mb-5">
-                    <div class="col-md-6">
-                        <div class="float-left">
-                            <img class="position-relative" src="assets/images/couple.jpg" alt="Image" width="314"
-                                height="300">
-                            <div class="position-absolute bg-info text-white px-5" style="bottom: 20px">
-                                <h3 class="px-5">Love Rain</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="float-left">
-                            <img class="position-relative" src="assets/images/puppy_sketch.jpg" alt="Image" width="300"
-                                height="300">
-                            <div class="position-absolute bg-info text-white px-4" style="bottom: 20px">
-                                <h3 class="px-5">Is'nt it cute!</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row mb-5">
-                    <div class="col-md-6">
-                        <div class="float-left">
-                            <img class="position-relative" src="assets/images/colors.jpg" alt="Image" width="249"
-                                height="300">
-                            <div class="position-absolute bg-info text-white px-4" style="bottom: 20px">
-                                <h3 class="px-5">"Colors"</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                    </div>
-                </div>
-                <div class="row clearfix"></div>
+    </nav>
+    <div id="mainCont" class="container bg-light">
+        <div class=" row">
+            <div class="col-md-12">
+                <h1 class="text-info font-weight-bold">Portfolio</h1>
+                <hr>
             </div>
-        </section>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card bg-secondary m-2">
+                    <img class="card-img-top" src="assets/images/panda.jpg" alt="Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Some bamboo??</h5>
+                        <p class="card-text"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-secondary m-2">
+                    <img class="card-img-top" src="assets/images/colors.jpg" alt="Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Colors!!</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card bg-secondary m-2">
+                    <img class="card-img-top" src="assets/images/multi_canvas.jpg" alt="Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Multi-Canvas-Pattern</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-secondary m-2">
+                    <img class="card-img-top" src="assets/images/puppy_sketch.jpg" alt="Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Isn't it cute!!</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card bg-secondary m-2">
+                    <img class="card-img-top" src="assets/images/couple.jpg" alt="Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Love Rain &lt3</h5>
+                    </div>
+                </div>
+                <br><br><br>
+            </div>
+        </div>
     </div>
     <footer
         class="page-footer bg-secondary text-white fixed-bottom border border-info border-left-0 border-bottom-0 border-right-0">
         <p class="footer-copyright text-center py-2">@copyright</p>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
