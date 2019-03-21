@@ -2,7 +2,7 @@ h1, .brand {
     font-family: 'ZCOOL XiaoWei', serif;
 }
 .container {
-    width: 850px;
+    max-width: 850px;
 }
 #mainCont {
     position: relative;
