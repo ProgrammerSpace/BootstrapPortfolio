@@ -8,3 +8,7 @@ h1, .brand {
     position: relative;
     top: 65px;
 }
+#mainContMoveDown {
+    position: relative;
+    top: 150px;
+}
